@@ -3,7 +3,7 @@ import styled from "styled-components";
 import bg from "./images/Background.png";
 import ImgSHto from "./images/Moonbird.jpg";
 import Boy from "./images/Boy.png";
-import Monkey from "."
+import Monkey from "./images/Monkey.png"
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Card,
@@ -129,7 +129,7 @@ function Banner() {
           <Rasm alt="Sample" src={Boy} />
           <CardBody>
             <CardTitle tag="h1">
-              ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ ᠌᠌᠌᠌ ᠌ ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ Clone X - X Takashi ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ ᠌᠌᠌᠌ ᠌ ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ ᠌᠌᠌᠌ ᠌ ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ ᠌᠌᠌᠌ ᠌ ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌  Murakami
+              ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ ᠌᠌᠌᠌ ᠌ ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ Clone X - X Takashi Murakami
             </CardTitle>
             <CardSubtitle className="mb-2 text-muted" tag="h4">
               Faucibus odio elementum nulla venenatis, libero. Ullamcorper duis
@@ -140,7 +140,7 @@ function Banner() {
         <ManiCardim
           
         >
-          <Rasm alt="Sample" src={ImgSHto} />
+          <Rasm alt="Sample" src={Monkey} />
           <CardBody>
             <CardTitle tag="h1">
               ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ ᠌᠌᠌᠌ ᠌ ᠌ ᠌ ᠌᠌ ᠌ ᠌ ᠌ ᠌ ᠌᠌᠌᠌ ᠌
