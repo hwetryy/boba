@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components'
-    
+import { Link } from "react-router-dom";
 
 const Container = styled('div')`
     background-color: white;
@@ -21,12 +21,20 @@ const Logo = styled('h3')`
     background: transparent;
 `
 
+const ManiLinkim=styled(Link)`
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+`
+
 function Navbar(){
+
     return(
         <Container>
-            <Text>Home</Text>
+            <ManiLinkim to={'/'}>Home</ManiLinkim>
             <Logo>ZEUS UI</Logo>
-            <Text>Profile</Text>
+            <ManiLinkim to={"/profile"}>Profile</ManiLinkim>
         </Container>
     )
 }
